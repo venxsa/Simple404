@@ -1,48 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400&display=swap');
 
 body {
   margin: 0;
   padding: 0;
-  background: #0c65c0;
-  font-family: "Segoe UI", sans-serif;
+  background: #000000;
   color: #ffffff;
+  font-family: "Segoe UI", sans-serif;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .container {
-  max-width: 650px;
-  width: 90%;
-  text-align: left;
+  width: 80%;
+  max-width: 900px;
 }
 
 h1 {
-  font-size: 6rem;
-  margin-bottom: 20px;
+  font-size: 8rem;
   font-weight: 300;
+  margin: 0 0 30px 0;
 }
 
 p {
-  font-size: 1.5rem;
-  line-height: 1.45em;
-  margin-top: 10px;
+  font-size: 1.7rem;
+  line-height: 1.4em;
+  margin: 8px 0;
 }
 
-.qr-section {
+.percent {
+  margin-top: 30px;
+  font-size: 1.6rem;
+}
+
+.bottom {
   margin-top: 40px;
   display: flex;
-  align-items: center;
-  gap: 20px;
+  align-items: flex-start;
+  gap: 25px;
 }
 
 .qr {
-  width: 140px;
-  height: 140px;
+  width: 150px;
+  height: 150px;
 }
 
-.error-code {
+.text p {
   font-size: 1.1rem;
   opacity: 0.9;
+}
+
+.link {
+  opacity: 1;
 }
