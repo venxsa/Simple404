@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #0c65c0;
+  font-family: "Segoe UI", sans-serif;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 650px;
+  width: 90%;
+  text-align: left;
+}
+
+h1 {
+  font-size: 6rem;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.45em;
+  margin-top: 10px;
+}
+
+.qr-section {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.qr {
+  width: 140px;
+  height: 140px;
+}
+
+.error-code {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
